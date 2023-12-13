@@ -10,12 +10,12 @@ const divide = (arr, n) => {
 		}
 		else{
 			ans.push(subarray);
-			maxsum=0;
-			subarray.length = 0;
+			maxsum=arr[i];
+			subarray[arr[i]];
 		}
 	}
 	return ans;
 };
 
-const n = prompt("Enter n: ");
-alert(JSON.stringify(divide(arr, n)));
+// const n = prompt("Enter n: ");
+// alert(JSON.stringify(divide(arr, n)));
